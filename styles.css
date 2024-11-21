@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+header {
+    background-color:  #36ac93da; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+}
+nav {
+    background-color:#20f7c975;
+    display: flex;
+    justify-content: center; /* Centra el menú */
+    font-family: "Oswald", sans-serif;
+}
+.menu {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    padding: 25px 60px;
+    cursor: pointer;
+    color: white;
+}
+.menu > li:hover {
+    background-color: #a4e2ff;
+}
+main {
+    padding: 20px; /* Entre el texto y el menu */
+    max-width: 980px;
+    margin: 0 auto;
+    justify-content: center; /* Centra el menú */
+}
+p {
+
+    text-align: justify;
+    display: flex;
+    color: #000000;
+    flex: 1; /* Hace que el texto ocupe el resto del espacio */
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+footer {
+    background-color: #20f7c975;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+#img1, #img2 {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene las proporciones */
+}
+
+
+h1, h2, h3 {
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+ol {
+    font-family: "Oswald", sans-serif;
+}
+
+a {
+    color: rgb(13, 77, 107);
+    text-decoration: none; /* Quita el subrayado */
+}
